@@ -29,7 +29,12 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["dmg", "app", "msi", "nsis"],
+    "targets": [
+      "dmg",
+      "app",
+      "msi",
+      "nsis"
+    ],
     "category": "SocialNetworking",
     "shortDescription": "GrowBox Pro لتجهيز بوستات السوشيال ميديا الخليجية",
     "longDescription": "GrowBox Pro — تطبيق مرخص لتجهيز منشورات إنستغرام وتيك توك اعتمادًا على بيانات الحساب ووصف الوسائط مع ذكاء اصطناعي محلي.",
@@ -52,16 +57,25 @@
       "frameworks": [],
       "entitlements": "Entitlements.plist",
       "dmg": {
-        "appPosition": { "x": 180, "y": 170 },
-        "applicationFolderPosition": { "x": 480, "y": 170 },
-        "windowSize": { "width": 660, "height": 400 }
+        "appPosition": {
+          "x": 180,
+          "y": 170
+        },
+        "applicationFolderPosition": {
+          "x": 480,
+          "y": 170
+        },
+        "windowSize": {
+          "width": 660,
+          "height": 400
+        }
       }
     },
     "createUpdaterArtifacts": true
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDYzQ0ExMEIyNDFDMzZDNkUKUldSdWJNTkJzaERLWXlMYU1pTmVjMXp6ZXo4WVp1NjlhcENjSXhXR2NwUnVPOWx0cTdFVFdQMHAK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDQ3MjhCNDczODBEMzFBMzUKUldSSEtMUnpnTk1hTlJzM2Y1ck04dTlTVlBRemduZVJ0YVhaMVRMakJJQys5Ykp2L2tlczN5QjMK",
       "endpoints": [
         "https://releases.carbonflows.store/update/growbox-pro/{{target}}/{{current_version}}"
       ]
